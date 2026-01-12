@@ -128,3 +128,25 @@ p {
   color: #0a58ca;
   background: var(--primary-color);
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+  .mobile-resizing {
+    text-align: center;
+  }
+
+  .w-90 {
+    width: 90%;
+  }
+
+  .mb-100 {
+    margin-bottom: 100px;
+  }
+}
